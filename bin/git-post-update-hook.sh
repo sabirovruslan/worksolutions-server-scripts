@@ -1,7 +1,7 @@
 #!/bin/sh
 
-git-fix-server-changes
-git-pull
-git-fix-conflicts
-git-push
-git-push-bucket
+git-fix-server-changes.sh
+git-pull.sh
+git-fix-conflicts.sh
+git-push.sh
+git-push-bucket.sh
