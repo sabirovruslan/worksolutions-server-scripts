@@ -3,4 +3,4 @@
 unset GIT_DIR
 cd /var/www/${USER}/data/www/#HOSTNAME#.app-web.ru/
 
-git-post-update-hook
+git-post-update-hook.sh
