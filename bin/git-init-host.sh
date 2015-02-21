@@ -16,5 +16,5 @@ git config --global user.email "${REPO}@app-web.ru"
 git config --global user.name "${REPO} on app-web.ru"
 git commit -m "init commit"
 git push -u origin master
-cp "${DIR}/../dist/post-update" "${HOME}/repo/${REPO}.app-web.ru.git/hooks/post-update"
+cat "${DIR}/../dist/post-update" | sed "s/#HOSTNAME#/${REPO}/"  > "${HOME}/repo/${REPO}.app-web.ru.git/hooks/post-update"
 chmod +x "${HOME}/repo/${REPO}.app-web.ru.git/hooks/post-update"
