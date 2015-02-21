@@ -1,3 +1,6 @@
 [submodule "home.skel/.oh-my-zsh"]
 	path = home.skel/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "home.skel/.ssh"]
+	path = home.skel/.ssh
+	url = https://bitbucket.org/dsxack/worksolutions-ssh-keys.git
