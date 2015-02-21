@@ -1,0 +1,6 @@
+#!/bin/sh
+
+unset GIT_DIR
+cd /var/www/${USER}/data/www/${USER}.app-web.ru/
+
+git-post-update-hook
