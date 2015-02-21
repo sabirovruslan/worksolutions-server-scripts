@@ -3,7 +3,7 @@
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 PATH="${PATH}:${DIR}/bin"
 
-if [ "${SHELL}" != "/usr/bin/zsh" ];
+if [ ! -z "${ZSH}" ];
 then
-    zsh && exit
+    exec zsh
 fi
